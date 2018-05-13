@@ -21,7 +21,7 @@
     "start": "bundle.js"
   },
   "engines": {
-    "node": "4.1.1"
+    "node": "4.7.0"
   },
   "repository": {
     "type": "git",
