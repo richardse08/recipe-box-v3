@@ -20,6 +20,9 @@
     "build": "webpack",
     "start": "bundle.js"
   },
+  "engines": {
+    "node": "4.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardse08/recipe-box-v3.git"
