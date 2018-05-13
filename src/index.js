@@ -2,6 +2,8 @@ import './style.css';
 
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
+import Vue from 'vue';
+
 Vue.component('recipe-component', {
     template: `
     <div class="recipe-component">
