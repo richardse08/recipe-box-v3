@@ -19,13 +19,13 @@
     padding: 15px;
     font-family: Helvetica;
 }
-.recipe-component {
+.recipeComponent {
     width: 400px;
     padding: 20px;
     margin: 40px;
     border: 1px solid #d8d8d8;
 }
-.new-recipe {
+.newRecipe {
     margin-top: 15px;
 }
 .display-none {

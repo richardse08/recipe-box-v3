@@ -1,4 +1,5 @@
 const path = require('path');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
     mode: 'production',
@@ -15,6 +16,10 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
+            },
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
             }
         ]
     },
@@ -22,5 +27,8 @@ module.exports = {
         alias: {
             'vue$': 'vue/dist/vue.esm.js' // full ES Module mode
         }
-    }
+    },
+    plugins: [
+        new VueLoaderPlugin()
+    ]
 };
